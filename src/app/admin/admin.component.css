@@ -1,0 +1,15 @@
+/* #fixed-sidebar {
+  position: fixed;
+  max-width: 20%;
+  color: white;
+} */
+body,
+html {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  aside {
+    height: 100%;
+  }
+}
